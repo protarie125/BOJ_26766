@@ -19,8 +19,7 @@ int main() {
 	ios::sync_with_stdio(false);
 	std::cin.tie(nullptr);
 
-	int n;
-	cin >> n;
+	int n; cin >> n;
 	auto oss = ostringstream{};
 	while (0 < (n--)) {
 		p(oss);
